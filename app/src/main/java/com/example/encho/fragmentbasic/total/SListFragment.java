@@ -46,8 +46,6 @@ public class SListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-
-
         View v = inflater.inflate(R.layout.second_list_fragment_layout, container, false);
         listView = (ListView)v.findViewById(R.id.second_list);
         mAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1);
